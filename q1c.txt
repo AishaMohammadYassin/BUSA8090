@@ -1,0 +1,1 @@
+awk '/Purine/ || /Pyrimidine/ {print}' annotation.tab 

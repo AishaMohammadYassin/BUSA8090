@@ -1,0 +1,1 @@
+awk '/ase/ {print}' annotation.tab 
