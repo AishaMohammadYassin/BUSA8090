@@ -1,0 +1,2 @@
+mysql -u awkologist -p world_x -e 'select s.Name, c.Name, l.Language, l.Percentage from country c,city s, countrylanguage l where c.Capital=s.ID and c.code=l.Countrycode and l.Countrycode=s.Countrycode and l.Language="English" and l.Percentage>50 ';
+
