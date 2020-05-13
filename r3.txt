@@ -1,0 +1,5 @@
+Bali_r <-ggplot(Bali_t,aes(x,y,xend=xend,yend=yend))+
++ geom_edges(color="lightgrey")+
++ geom_nodes(alpha=0.3,size=5)+
++ geom_nodetext(aes(label=role),col="blue")+
++ theme_blank()
