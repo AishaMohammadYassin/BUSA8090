@@ -1,0 +1,2 @@
+co2_map<-ggplot(merged,aes(x=long,y=lat,group=group,fill=log10(Emit_co2percap)))
++geom_polygon()
